@@ -17,7 +17,7 @@
   <body class="page">
     <header class="header section item">
       <h1 class="header__title accent-text">&lt;/HTML&gt;</h1>
-      <h2 class="header__subtitle accent-text">закрывающий тег</h2>
+      <p class="header__subtitle accent-text">закрывающий тег</p>
     </header>
 
     <main class="main">
@@ -32,6 +32,7 @@
                 src="./images/image.png"
                 alt="Грузовик ночью едет по дороге"
                 class="card__container-image"
+                loading="lazy"
               />
               <span class="card__container-decorative accent-text"
                 >&lt;/HTML&gt;</span
@@ -47,13 +48,14 @@
                 Место для ваших воспоминаний о начале обучения.
               </p>
               <div class="card__content-buttons">
-                <button class="card__icon-button">
+                <button class="card__icon-button" type="button" aria-label="Лайк">
                   <svg
                     class="like-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="39"
                     height="36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -79,7 +81,7 @@
                     />
                   </svg>
                 </button>
-                <button class="card__like-button button">
+                <button class="card__like-button button" type="button">
                   <span class="button__text accent-text">Like</span>
                 </button>
               </div>
@@ -94,7 +96,8 @@
               <img
                 src="./images/image.png"
                 alt="Грузовик ночью едет по дороге"
-                class="card__container-image"
+                class="card__container-image saturate-low"
+                loading="lazy"
               />
               <span class="card__container-decorative accent-text"
                 >&lt;/HTML&gt;</span
@@ -113,13 +116,14 @@
                 Место для ваших воспоминаний о начале первого спринта.
               </p>
               <div class="card__content-buttons">
-                <button class="card__icon-button">
+                <button class="card__icon-button" type="button" aria-label="Лайк">
                   <svg
                     class="like-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="39"
                     height="36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -145,7 +149,7 @@
                     />
                   </svg>
                 </button>
-                <button class="card__like-button button">
+                <button class="card__like-button button" type="button">
                   <span class="button__text accent-text">Like</span>
                 </button>
               </div>
@@ -156,11 +160,12 @@
         <li class="cards-list__item section">
           <article class="card">
             <h2 class="card__heading">3 спринт: Обходные стратегии</h2>
-            <div class="card__container">
+            <div class="card__container sepia">
               <img
                 src="./images/image.png"
                 alt="Грузовик ночью едет по дороге"
                 class="card__container-image"
+                loading="lazy"
               />
               <span class="card__container-decorative accent-text"
                 >&lt;/HTML&gt;</span
@@ -176,13 +181,14 @@
                 Место для ваших воспоминаний о начале третьего спринта.
               </p>
               <div class="card__content-buttons">
-                <button class="card__icon-button">
+                <button class="card__icon-button" type="button" aria-label="Лайк">
                   <svg
                     class="like-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="39"
                     height="36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -208,7 +214,7 @@
                     />
                   </svg>
                 </button>
-                <button class="card__like-button button">
+                <button class="card__like-button button" type="button">
                   <span class="button__text accent-text">Like</span>
                 </button>
               </div>
@@ -219,11 +225,12 @@
         <li class="cards-list__item section">
           <article class="card">
             <h2 class="card__heading">2 спринт: Погоня за идеалом</h2>
-            <div class="card__container">
+            <div class="card__container hue-rotate">
               <img
                 src="./images/image.png"
                 alt="Грузовик ночью едет по дороге"
                 class="card__container-image"
+                loading="lazy"
               />
               <span class="card__container-decorative accent-text"
                 >&lt;/HTML&gt;</span
@@ -241,13 +248,14 @@
                 Место для ваших воспоминаний о начале второго спринта.
               </p>
               <div class="card__content-buttons">
-                <button class="card__icon-button">
+                <button class="card__icon-button" type="button" aria-label="Лайк">
                   <svg
                     class="like-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="39"
                     height="36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -273,7 +281,7 @@
                     />
                   </svg>
                 </button>
-                <button class="card__like-button button">
+                <button class="card__like-button button" type="button">
                   <span class="button__text accent-text">Like</span>
                 </button>
               </div>
@@ -284,11 +292,12 @@
         <li class="cards-list__item section">
           <article class="card">
             <h2 class="card__heading">2 спринт: О тех, кто рядом</h2>
-            <div class="card__container">
+            <div class="card__container invert">
               <img
                 src="./images/image.png"
                 alt="Грузовик ночью едет по дороге"
                 class="card__container-image"
+                loading="lazy"
               />
               <span class="card__container-decorative accent-text"
                 >&lt;/HTML&gt;</span
@@ -307,13 +316,14 @@
                 Место для ваших воспоминаний об окончании второго спринта.
               </p>
               <div class="card__content-buttons">
-                <button class="card__icon-button">
+                <button class="card__icon-button" type="button" aria-label="Лайк">
                   <svg
                     class="like-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="39"
                     height="36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -339,7 +349,7 @@
                     />
                   </svg>
                 </button>
-                <button class="card__like-button button">
+                <button class="card__like-button button" type="button">
                   <span class="button__text accent-text">Like</span>
                 </button>
               </div>
@@ -354,7 +364,8 @@
               <img
                 src="./images/image.png"
                 alt="Грузовик ночью едет по дороге"
-                class="card__container-image"
+                class="card__container-image saturate-high"
+                loading="lazy"
               />
               <span class="card__container-decorative accent-text"
                 >&lt;/HTML&gt;</span
@@ -370,13 +381,14 @@
                 Место для ваших воспоминаний об окончании первого спринта.
               </p>
               <div class="card__content-buttons">
-                <button class="card__icon-button">
+                <button class="card__icon-button" type="button" aria-label="Лайк">
                   <svg
                     class="like-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="39"
                     height="36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -402,7 +414,7 @@
                     />
                   </svg>
                 </button>
-                <button class="card__like-button button">
+                <button class="card__like-button button" type="button">
                   <span class="button__text accent-text">Like</span>
                 </button>
               </div>
@@ -413,11 +425,12 @@
         <li class="cards-list__item section">
           <article class="card">
             <h2 class="card__heading">3 спринт: Когда опускаются руки</h2>
-            <div class="card__container">
+            <div class="card__container blur">
               <img
                 src="./images/image.png"
                 alt="Грузовик ночью едет по дороге"
                 class="card__container-image"
+                loading="lazy"
               />
               <span class="card__container-decorative accent-text"
                 >&lt;/HTML&gt;</span
@@ -435,13 +448,14 @@
                 Место для ваших воспоминаний об окончании третьего спринта.
               </p>
               <div class="card__content-buttons">
-                <button class="card__icon-button">
+                <button class="card__icon-button" type="button" aria-label="Лайк">
                   <svg
                     class="like-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="39"
                     height="36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -467,7 +481,7 @@
                     />
                   </svg>
                 </button>
-                <button class="card__like-button button">
+                <button class="card__like-button button" type="button">
                   <span class="button__text accent-text">Like</span>
                 </button>
               </div>
@@ -478,11 +492,12 @@
         <li class="cards-list__item section">
           <article class="card">
             <h2 class="card__heading">«Сейчас я здесь»</h2>
-            <div class="card__container">
+            <div class="card__container many-filters">
               <img
                 src="./images/image.png"
                 alt="Грузовик ночью едет по дороге"
                 class="card__container-image"
+                loading="lazy"
               />
               <span class="card__container-decorative accent-text"
                 >&lt;/HTML&gt;</span
@@ -502,13 +517,14 @@
                 чувствуете в этой точке пути.
               </p>
               <div class="card__content-buttons">
-                <button class="card__icon-button">
+                <button class="card__icon-button" type="button" aria-label="Лайк">
                   <svg
                     class="like-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="39"
                     height="36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -534,7 +550,7 @@
                     />
                   </svg>
                 </button>
-                <button class="card__like-button button">
+                <button class="card__like-button button" type="button">
                   <span class="button__text accent-text">Like</span>
                 </button>
               </div>
@@ -542,11 +558,9 @@
           </article>
         </li>
       </ul>
-    </main>
-
-    <footer class="footer">
+   
       <button
-        class="footer__save-button button"
+        class="save-button button"
         type="button"
         onclick="window['modal-floppy'].showModal()"
         aria-controls="modal-floppy"
@@ -557,12 +571,13 @@
           height="39"
           viewBox="0 0 39 39"
           fill="none"
+          aria-hidden="true"
         >
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <span class="button__text accent-text">Сохранить на память</span>
       </button>
-    </footer>
+      </main>
 
     <dialog class="modal-countinue" id="modal-floppy">
       <svg
@@ -571,6 +586,7 @@
         height="39"
         viewBox="0 0 39 39"
         fill="none"
+        aria-hidden="true"
       >
         <use href="./svg/floppy.svg#floppy"></use>
       </svg>
@@ -583,7 +599,7 @@
         class="modal-countinue__button button"
         onclick="window['modal-floppy'].close()"
       >
-        <span class="button__text accent-text">ОК</span>
+        <span class="button__text accent-text">ок</span>
       </button>
     </dialog>
     <script src="./scripts/like.js"></script>
